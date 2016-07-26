@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/number"
+        android:text="存储" />
+
+    <Button
+        android:id="@+id/read"
+        android:layout_below="@id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="读取" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:onClick="changetobyte"
+        android:layout_below="@id/read"
+        android:text="将对象转化为二进制数组再转回来"
+        android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>
