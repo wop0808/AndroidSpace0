@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="share.broadcastreciver.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送普通广播"
+        android:onClick="sendBroad"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Service通过广播更新UI界面"
+        android:onClick="freshUI"/>
+
+    <EditText
+        android:id="@+id/id_main_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Service通过广播更新界面"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="广播发送一"
+        android:onClick="sendoOne"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="广播发送二"
+        android:onClick="sendTwo"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送有序广播"
+        android:onClick="sendOrderBroad"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="动态注册广播"
+        android:onClick="registReceiver"/>
+
+</LinearLayout>

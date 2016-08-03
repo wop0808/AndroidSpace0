@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="share.broadcastreciver">
+
+    <!-- 设置广播发送的权限 -->
+    <uses-permission android:name="share.permission" />
+
+    <permission
+        android:name="share.permission"
+        android:protectionLevel="normal" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 第一个广播 -->
+        <receiver
+            android:name=".FirstReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter android:priority="100">
+                <action android:name="com.hkc.firstreceiver" />
+            </intent-filter>
+        </receiver>
+        <!-- 广播刷新UI -->
+        <service
+            android:name=".FreshUI_Service"
+            android:enabled="true"
+            android:exported="true"></service>
+        <!-- MainActivity的内部广播类 ，注意这个注册方法 -->
+        <receiver android:name=".MainActivity$FreshUI_Receiver">
+            <intent-filter>
+                <action android:name="com.hkc.inner_receiver" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 第二个广播 -->
+        <receiver
+            android:name=".SecondReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter android:priority="200">
+                <action android:name="com.hkc.firstreceiver" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".RegistReceiver"
+            android:enabled="true"
+            android:exported="true"></receiver>
+    </application>
+
+</manifest>
