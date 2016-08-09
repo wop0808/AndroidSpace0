@@ -5,13 +5,14 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 /**
  * Created by Administrator on 2016/6/30.
  */
 
-public class MyView extends LinearLayout {
+public class MyView extends RelativeLayout {
 
     ImageView icon,jiewei;
     TextView title;

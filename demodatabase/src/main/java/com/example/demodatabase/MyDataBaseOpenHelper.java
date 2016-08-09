@@ -19,7 +19,7 @@ public class MyDataBaseOpenHelper extends SQLiteOpenHelper{
 
     }
 
-
+    //如果表不存在则调用此方法，如果已经存在则不调用此方法
     @Override
     public void onCreate(SQLiteDatabase db) {
         //Android中建立的任何表，至少都因该包含字段 _id

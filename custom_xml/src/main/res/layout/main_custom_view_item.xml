@@ -1,33 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_main_layout_relative"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginBottom="10dp">
+    android:layout_height="wrap_content">
 
-    <RelativeLayout
-        android:id="@+id/id_main_layout_relative"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/id_main_layout_iv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher" />
 
-        <ImageView
-            android:id="@+id/id_main_layout_iv_icon"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@mipmap/ic_launcher" />
+    <TextView
+        android:id="@+id/id_main_layout_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/id_main_layout_iv_icon"
+        android:text="自定义view" />
 
-        <TextView
-            android:id="@+id/id_main_layout_tv"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:layout_toRightOf="@id/id_main_layout_iv_icon"
-            android:text="自定义view" />
-
-        <ImageView
-            android:id="@+id/id_main_layout_iv_jiewei"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:src="@mipmap/ic_launcher" />
-    </RelativeLayout>
-</LinearLayout>
+    <ImageView
+        android:id="@+id/id_main_layout_iv_jiewei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/ic_launcher" />
+</merge>

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidSpace.iml" filepath="$PROJECT_DIR$/AndroidSpace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Internet/Internet.iml" filepath="$PROJECT_DIR$/Internet/Internet.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/asynctask/asynctask.iml" filepath="$PROJECT_DIR$/asynctask/asynctask.iml" />
       <module fileurl="file://$PROJECT_DIR$/boss_test_7_19/boss_test_7_19.iml" filepath="$PROJECT_DIR$/boss_test_7_19/boss_test_7_19.iml" />
@@ -10,7 +11,8 @@
       <module fileurl="file://$PROJECT_DIR$/broadcastreceiver_other/broadcastreceiver_other.iml" filepath="$PROJECT_DIR$/broadcastreceiver_other/broadcastreceiver_other.iml" />
       <module fileurl="file://$PROJECT_DIR$/broadcastreciver/broadcastreciver.iml" filepath="$PROJECT_DIR$/broadcastreciver/broadcastreciver.iml" />
       <module fileurl="file://$PROJECT_DIR$/custom_xml/custom_xml.iml" filepath="$PROJECT_DIR$/custom_xml/custom_xml.iml" />
-      <module fileurl="file://$PROJECT_DIR$/database_teacher1/database_teacher1.iml" filepath="$PROJECT_DIR$/database_teacher1/database_teacher1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/database_SQLiteDatabase/database_SQLiteDatabase.iml" filepath="$PROJECT_DIR$/database_SQLiteDatabase/database_SQLiteDatabase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/database_SQLiteDatabase/database_teacher1.iml" filepath="$PROJECT_DIR$/database_SQLiteDatabase/database_teacher1.iml" />
       <module fileurl="file://$PROJECT_DIR$/databasedemo_studentmanager/databasedemo_studentmanager.iml" filepath="$PROJECT_DIR$/databasedemo_studentmanager/databasedemo_studentmanager.iml" />
       <module fileurl="file://$PROJECT_DIR$/demodatabase/demodatabase.iml" filepath="$PROJECT_DIR$/demodatabase/demodatabase.iml" />
       <module fileurl="file://$PROJECT_DIR$/fragment/fragment.iml" filepath="$PROJECT_DIR$/fragment/fragment.iml" />
@@ -21,7 +23,7 @@
       <module fileurl="file://$PROJECT_DIR$/interfacedownload_gson_boss/interfacedownload_gson_boss.iml" filepath="$PROJECT_DIR$/interfacedownload_gson_boss/interfacedownload_gson_boss.iml" />
       <module fileurl="file://$PROJECT_DIR$/mapdemo/mapdemo.iml" filepath="$PROJECT_DIR$/mapdemo/mapdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/menu/menu.iml" filepath="$PROJECT_DIR$/menu/menu.iml" />
-      <module fileurl="file://$PROJECT_DIR$/net/net.iml" filepath="$PROJECT_DIR$/net/net.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Internet/net.iml" filepath="$PROJECT_DIR$/Internet/net.iml" />
       <module fileurl="file://$PROJECT_DIR$/notification/notification.iml" filepath="$PROJECT_DIR$/notification/notification.iml" />
       <module fileurl="file://$PROJECT_DIR$/post0/post0.iml" filepath="$PROJECT_DIR$/post0/post0.iml" />
       <module fileurl="file://$PROJECT_DIR$/service_start/service_start.iml" filepath="$PROJECT_DIR$/service_start/service_start.iml" />
@@ -29,7 +31,9 @@
       <module fileurl="file://$PROJECT_DIR$/serviceclient_obj/serviceclient_obj.iml" filepath="$PROJECT_DIR$/serviceclient_obj/serviceclient_obj.iml" />
       <module fileurl="file://$PROJECT_DIR$/serviceport/serviceport.iml" filepath="$PROJECT_DIR$/serviceport/serviceport.iml" />
       <module fileurl="file://$PROJECT_DIR$/serviceport_obj/serviceport_obj.iml" filepath="$PROJECT_DIR$/serviceport_obj/serviceport_obj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smsmanager/smsmanager.iml" filepath="$PROJECT_DIR$/smsmanager/smsmanager.iml" />
       <module fileurl="file://$PROJECT_DIR$/startactivityforresult/startactivityforresult.iml" filepath="$PROJECT_DIR$/startactivityforresult/startactivityforresult.iml" />
+      <module fileurl="file://$PROJECT_DIR$/telephonymanager/telephonymanager.iml" filepath="$PROJECT_DIR$/telephonymanager/telephonymanager.iml" />
       <module fileurl="file://$PROJECT_DIR$/test7_11/test7_11.iml" filepath="$PROJECT_DIR$/test7_11/test7_11.iml" />
       <module fileurl="file://$PROJECT_DIR$/test_7_19/test_7_19.iml" filepath="$PROJECT_DIR$/test_7_19/test_7_19.iml" />
       <module fileurl="file://$PROJECT_DIR$/test_8_1/test_8_1.iml" filepath="$PROJECT_DIR$/test_8_1/test_8_1.iml" />

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.smsmanager.MainActivity">
+
+    <EditText
+        android:id="@+id/id_main_et_numbers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入电话号码"/>
+    <EditText
+        android:id="@+id/id_main_et_contends"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入发送内容"/>
+    <Button
+        android:id="@+id/id_main_btn_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选择联系人"/>
+    <Button
+        android:id="@+id/id_main_btn_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送消息"/>
+
+</LinearLayout>

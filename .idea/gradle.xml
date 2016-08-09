@@ -8,6 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Internet" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/asynctask" />
             <option value="$PROJECT_DIR$/boss_test_7_19" />
@@ -15,7 +16,7 @@
             <option value="$PROJECT_DIR$/broadcastreceiver_other" />
             <option value="$PROJECT_DIR$/broadcastreciver" />
             <option value="$PROJECT_DIR$/custom_xml" />
-            <option value="$PROJECT_DIR$/database_teacher1" />
+            <option value="$PROJECT_DIR$/database_SQLiteDatabase" />
             <option value="$PROJECT_DIR$/databasedemo_studentmanager" />
             <option value="$PROJECT_DIR$/demodatabase" />
             <option value="$PROJECT_DIR$/fragment" />
@@ -26,7 +27,6 @@
             <option value="$PROJECT_DIR$/interfacedownload_gson_boss" />
             <option value="$PROJECT_DIR$/mapdemo" />
             <option value="$PROJECT_DIR$/menu" />
-            <option value="$PROJECT_DIR$/net" />
             <option value="$PROJECT_DIR$/notification" />
             <option value="$PROJECT_DIR$/post0" />
             <option value="$PROJECT_DIR$/service_start" />
@@ -34,7 +34,9 @@
             <option value="$PROJECT_DIR$/serviceclient_obj" />
             <option value="$PROJECT_DIR$/serviceport" />
             <option value="$PROJECT_DIR$/serviceport_obj" />
+            <option value="$PROJECT_DIR$/smsmanager" />
             <option value="$PROJECT_DIR$/startactivityforresult" />
+            <option value="$PROJECT_DIR$/telephonymanager" />
             <option value="$PROJECT_DIR$/test7_11" />
             <option value="$PROJECT_DIR$/test_7_19" />
             <option value="$PROJECT_DIR$/test_8_1" />
@@ -46,6 +48,7 @@
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Internet" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/asynctask" />
             <option value="$PROJECT_DIR$/boss_test_7_19" />
@@ -53,7 +56,7 @@
             <option value="$PROJECT_DIR$/broadcastreceiver_other" />
             <option value="$PROJECT_DIR$/broadcastreciver" />
             <option value="$PROJECT_DIR$/custom_xml" />
-            <option value="$PROJECT_DIR$/database_teacher1" />
+            <option value="$PROJECT_DIR$/database_SQLiteDatabase" />
             <option value="$PROJECT_DIR$/databasedemo_studentmanager" />
             <option value="$PROJECT_DIR$/demodatabase" />
             <option value="$PROJECT_DIR$/fragment" />
@@ -64,7 +67,6 @@
             <option value="$PROJECT_DIR$/interfacedownload_gson_boss" />
             <option value="$PROJECT_DIR$/mapdemo" />
             <option value="$PROJECT_DIR$/menu" />
-            <option value="$PROJECT_DIR$/net" />
             <option value="$PROJECT_DIR$/notification" />
             <option value="$PROJECT_DIR$/post0" />
             <option value="$PROJECT_DIR$/service_start" />
@@ -72,7 +74,9 @@
             <option value="$PROJECT_DIR$/serviceclient_obj" />
             <option value="$PROJECT_DIR$/serviceport" />
             <option value="$PROJECT_DIR$/serviceport_obj" />
+            <option value="$PROJECT_DIR$/smsmanager" />
             <option value="$PROJECT_DIR$/startactivityforresult" />
+            <option value="$PROJECT_DIR$/telephonymanager" />
             <option value="$PROJECT_DIR$/test7_11" />
             <option value="$PROJECT_DIR$/test_7_19" />
             <option value="$PROJECT_DIR$/test_8_1" />
