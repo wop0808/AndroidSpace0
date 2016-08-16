@@ -51,15 +51,7 @@ public class Fragment_One extends Fragment  {
         });
     }
 
-    //    @Override
-//    public void onClick(View v) {
-//        int viewID = v.getId();
-//        switch (viewID) {
-//            case R.id.id_main_fragment_btn:
-//                vp.setCurrentItem(vp.getCurrentItem() + 1, true);
-//
-//        }
-//    }
+
 
     public void auto_play(){
         final Handler handler = new Handler(){
