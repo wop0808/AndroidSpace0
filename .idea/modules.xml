@@ -26,6 +26,7 @@
       <module fileurl="file://$PROJECT_DIR$/Internet/net.iml" filepath="$PROJECT_DIR$/Internet/net.iml" />
       <module fileurl="file://$PROJECT_DIR$/notification/notification.iml" filepath="$PROJECT_DIR$/notification/notification.iml" />
       <module fileurl="file://$PROJECT_DIR$/post0/post0.iml" filepath="$PROJECT_DIR$/post0/post0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/residemenudemo/residemenudemo.iml" filepath="$PROJECT_DIR$/residemenudemo/residemenudemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/service_start/service_start.iml" filepath="$PROJECT_DIR$/service_start/service_start.iml" />
       <module fileurl="file://$PROJECT_DIR$/serviceclient/serviceclient.iml" filepath="$PROJECT_DIR$/serviceclient/serviceclient.iml" />
       <module fileurl="file://$PROJECT_DIR$/serviceclient_obj/serviceclient_obj.iml" filepath="$PROJECT_DIR$/serviceclient_obj/serviceclient_obj.iml" />
