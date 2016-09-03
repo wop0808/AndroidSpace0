@@ -47,6 +47,7 @@
             <option value="$PROJECT_DIR$/toolbar" />
             <option value="$PROJECT_DIR$/viewpager" />
             <option value="$PROJECT_DIR$/viewpager_fragment" />
+            <option value="$PROJECT_DIR$/xutils" />
           </set>
         </option>
         <option name="myModules">
@@ -91,6 +92,7 @@
             <option value="$PROJECT_DIR$/toolbar" />
             <option value="$PROJECT_DIR$/viewpager" />
             <option value="$PROJECT_DIR$/viewpager_fragment" />
+            <option value="$PROJECT_DIR$/xutils" />
           </set>
         </option>
       </GradleProjectSettings>
