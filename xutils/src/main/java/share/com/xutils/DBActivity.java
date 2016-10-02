@@ -15,12 +15,13 @@ import org.xutils.x;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 import share.com.dbLogic.ChildInfo;
 
 public class DBActivity extends AppCompatActivity implements View.OnClickListener {
     private String TAG = "crazyK";
-    private Button btn_createDB,btn_dropDB,btn_dropTable,btn_select,btn_update;
+    private Button btn_createDB,btn_dropDB,btn_dropTable,btn_select,btn_update,btn_delete;
     private DbManager dbManager;
 
     @Override
@@ -49,12 +50,15 @@ public class DBActivity extends AppCompatActivity implements View.OnClickListene
         btn_dropTable = (Button) findViewById(R.id.drop_table);
         btn_select = (Button) findViewById(R.id.select);
         btn_update = (Button) findViewById(R.id.update);
+        btn_delete = (Button) findViewById(R.id.delete);
     }
     public void initListener(){
         btn_createDB.setOnClickListener(this);
         btn_dropDB.setOnClickListener(this);
         btn_dropTable.setOnClickListener(this);
         btn_update.setOnClickListener(this);
+        btn_select.setOnClickListener(this);
+        btn_delete.setOnClickListener(this);
     }
 
 
@@ -166,13 +170,34 @@ public class DBActivity extends AppCompatActivity implements View.OnClickListene
                     whereBuilder2.and("id","=",first.getId());
                     KeyValue keyValue = new KeyValue("name", "李四");
                     KeyValue keyValue1 = new KeyValue("age", 1000);
-                    dbManager.update(ChildInfo.class,whereBuilder2,keyValue,keyValue1);
+                    dbManager.update(ChildInfo.class, whereBuilder2, keyValue, keyValue1);
+
+                    //方法三
+                    first.setName("张三11111");
+                    first.setAge(1000);
+                    dbManager.saveOrUpdate(first);
 
                 } catch (DbException e) {
                     e.printStackTrace();
                 }
-
                 break;
+
+            /**
+             * 删
+             * */
+            case R.id.delete:
+                try {
+                    //删除表中所有数据
+                    dbManager.delete(ChildInfo.class);
+                    //删除条件数据
+                    WhereBuilder whereBuilder3 = WhereBuilder.b();
+                    whereBuilder3.and("name","=","张三");
+                    dbManager.delete(ChildInfo.class,whereBuilder3);
+                } catch (DbException e) {
+                    e.printStackTrace();
+                }
+                break;
+
         }
     }
 }
